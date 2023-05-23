@@ -48,7 +48,7 @@ plugins = [ "hexabyte_entropy",]
 ```bash
 ~/$ git clone https://github.com/thetacom/hexabyte_entropy
 ...
-~/$ cd hexabyte
+~/$ cd hexabyte_entropy
 hexabyte_entropy/$ poetry install
 ...
 ```
