@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexabyte_entropy"
-version = "0.1.0-rc.0"
+version = "0.1.1"
 description = "An entropy plugin for the hexabyte hex editor."
 keywords = ["commandline", "hexabyte", "hexeditor", "plugin", "sidebar", "entropy"]
 repository = "https://github.com/thetacom/hexabyte_entropy"
