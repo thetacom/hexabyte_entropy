@@ -25,7 +25,7 @@ The entropy values are mapped to color codes and then displayed in a scrollable 
 ### Install
 
 ```bash
-~/$ pip install hexabyte_entropy
+~/$ pip install hexabyte-entropy
 ...
 ```
 
