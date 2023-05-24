@@ -1,4 +1,4 @@
-# Hexabyte Extended Info Plugin
+# Hexabyte Entropy Plugin
 
 [![Version](https://img.shields.io/pypi/v/hexabyte_entropy.svg)](https://pypi.python.org/pypi/hexabyte_entropy)
 [![Status](https://img.shields.io/pypi/status/hexabyte_entropy)](https://pypi.python.org/pypi/hexabyte_entropy)

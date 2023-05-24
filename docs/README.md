@@ -1,4 +1,4 @@
-# Hexabyte Extended Info Plugin
+# Hexabyte Entropy Plugin
 
 A hexabyte plugin for displaying the entropy of file chunks.
 
