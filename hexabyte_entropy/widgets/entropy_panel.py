@@ -1,6 +1,8 @@
 """Entropy Info Panel."""
+from typing import Union
+
 from hexabyte.constants.sizes import BYTE_BITS
-from hexabyte.utils.misc import map_range
+from hexabyte.utils import map_range
 from hexabyte.view_components import HCView
 from hexabyte.widgets.editor import Editor
 from hexabyte.widgets.sidebar_panel import SidebarScrollPanel
@@ -19,7 +21,7 @@ ENTROPY_HIGH_BOUND = 0.6
 class EntropyPanel(SidebarScrollPanel):
     """Display entropy info for selected editor."""
 
-    entropy: reactive[Entropy | None] = reactive(None)
+    entropy: reactive[Union[Entropy, None]] = reactive(None)
 
     DEFAULT_CSS = """
     EntropyPanel {
@@ -29,9 +31,9 @@ class EntropyPanel(SidebarScrollPanel):
 
     def __init__(
         self,
-        name: str | None = None,
-        id: str | None = None,  # pylint: disable=redefined-builtin
-        classes: str | None = None,
+        name: Union[str, None] = None,
+        id: Union[str, None] = None,  # pylint: disable=redefined-builtin
+        classes: Union[str, None] = None,
         disabled: bool = False,
     ) -> None:
         """Initialize `EntropyPanel` widget.

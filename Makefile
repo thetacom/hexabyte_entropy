@@ -1,5 +1,5 @@
 .PHONY: clean lint bandit black check mypy pycodestyle ruff test build api-docs docs
-PKG := hexabyte
+PKG := hexabyte_entropy
 
 SRC_DIR := $(PKG)
 BUILD_DIR := build
