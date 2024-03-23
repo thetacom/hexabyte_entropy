@@ -1,4 +1,5 @@
 """Entropy Info Panel."""
+
 from typing import Union
 
 from hexabyte.constants.sizes import BYTE_BITS
@@ -44,6 +45,7 @@ class EntropyPanel(SidebarScrollPanel):
         id: Optional ID for the widget.
         classes: Optional initial classes for the widget.
         disabled: Whether the entropy widget is disabled or not.
+
         """
         super().__init__(name=name, id=id, classes=classes, disabled=disabled)
         self.view = HCView([], color_map_func=entropy_type)

@@ -1,4 +1,5 @@
 """Hexabyte Entropy Plugin."""
+
 from hexabyte import plugins
 
 from .widgets.entropy_panel import EntropyPanel
