@@ -2,6 +2,7 @@
 
 Transforms binary data into a entropy value.
 """
+
 import math
 
 from hexabyte.api import DataAPI
